@@ -10,5 +10,54 @@ e="Good" # e is a string
 r="Day" # r is a string
 t=q + " " + w + " " + e + " " + r
 print(t)
-#Iterating through a String
+# Iterating through a String
 string = "NEWYORK CITY" # string q is a string
+# Iteration
+for i in string:
+    print(i)
+
+for i in enumerate(string):
+    print(i)
+
+a=list(enumerate(string))
+print(a)
+
+# String membership
+string2 = "I MISS YOU"
+print ('I' in string2) # Check whether substring "I" is present in string2
+print ('MISS' in string2) # Check whether substring "LOVE" is present in string2
+print ('YOU' in string2) # Check whether substring "YOU" is present in string2
+
+# String Partitioning
+string3 = "I am so sorry i forget your Birthday"
+d = string3.partition("forget")
+print(d)
+
+# new string "a"
+a=" Newyork State "
+print(a)
+b=a.upper() #Return whole string in uppercase
+print(b)
+c=a.lower() #Return whole string in lowercase
+print(c)
+
+# New String "a"
+a="    CALIFORNIA STATE    "
+print(a)
+b=a.replace(" " , "") # Remove all whitespaces using replace function
+print(b)
+# remove *'s
+a="*****NEWYORK*****STATE*****"
+print(a)
+b=a.strip('*')
+print(b)
+
+#another string "t"
+t="******KALKI*****MOVIE****"
+print(t)
+b=t.rstrip('*') # Removes all '*' characters at the end of the string
+print(b)
+b=t.lstrip('*') # Removes all '*' characters at the beginning of the string
+print(b)
+c=t.strip('*') #Removes all '*' characters from begining & end of the string
+print(c)
