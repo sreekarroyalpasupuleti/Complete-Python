@@ -1,4 +1,4 @@
-# Keywords are the reserved words in Python and can't be used as an identifier
+# Keywords are the reserved words in Python and can't be used as an identifier.
 # There are total 35 keywords are available in python
 # All keywords in Python contain only alphabets.
 # These are in lowercase except 3 keywords, True, False & None
