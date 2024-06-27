@@ -24,7 +24,7 @@ print(type(f))# type of object
 
 
 g = 20.5+2.3j #assigned float value in real part & imaginary part
-h = 30.8+20j  #assigned float value in real part & real value in imaginary part
+h = 30.8+20j  #assigned float value in real part & real value in imaginary part.
 print(g+h)
 print(g/h)
 a1 = 20+30j
