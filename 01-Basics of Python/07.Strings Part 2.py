@@ -62,3 +62,11 @@ b=t.lstrip('*') # Removes all '*' characters at the beginning of the string
 print(b)
 c=t.strip('*') #Removes all '*' characters from begining & end of the string
 print(c)
+
+# Split a string by blank space (this is the default)
+o="My Name is String"
+print(o.split())
+
+# Split by a specific element (doesn't include the element that was split on)
+print(o.split('My Name'))
+print(o.split('My'))
