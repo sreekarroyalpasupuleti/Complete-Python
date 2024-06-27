@@ -33,15 +33,16 @@ string3 = "I am so sorry i forget your Birthday"
 d = string3.partition("forget")
 print(d)
 
-# new string "a"
+# Upper Case a string
 a=" Newyork State "
 print(a)
 b=a.upper() #Return whole string in uppercase
 print(b)
+# Lower Case a string
 c=a.lower() #Return whole string in lowercase
 print(c)
 
-# New String "a"
+# String Functions
 a="    CALIFORNIA STATE    "
 print(a)
 b=a.replace(" " , "") # Remove all whitespaces using replace function
@@ -52,7 +53,7 @@ print(a)
 b=a.strip('*')
 print(b)
 
-#another string "t"
+# rstrip,lstrip
 t="******KALKI*****MOVIE****"
 print(t)
 b=t.rstrip('*') # Removes all '*' characters at the end of the string
