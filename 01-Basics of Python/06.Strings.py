@@ -3,6 +3,7 @@ a="SREEKAR NEWYORK" #String created with double quote.Space is also counted.(s=0
 print(a)
 a='SREEKAR NEWYORK' #String created with single quote.
 print(a)
+#String Indexing
 print(a[0])# First character in string "a":Output is "S"
 print(a[1])# Second character in string "a":Output is "R"
 print(a[2])# Third character in string "a":Output is "E"
